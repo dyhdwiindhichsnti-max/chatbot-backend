@@ -2,3 +2,5 @@ flask
 flask-cors
 scikit-learn
 numpy
+fastapi
+uvicorn[standard]
