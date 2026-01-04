@@ -1,0 +1,347 @@
+{
+  "intents": [
+
+   {
+  "tag": "salam",
+  "patterns": [
+    "halo",
+    "hai",
+    "hay",
+    "hello",
+
+    "halo kak",
+    "hai kak",
+    "hay kak",
+    "halo min",
+    "hai min",
+    "halo admin",
+    "hai admin",
+
+    "pagi",
+    "selamat pagi",
+    "selamat siang",
+    "selamat sore",
+    "selamat malam",
+
+    "assalamualaikum",
+    "assalamu'alaikum",
+    "permisi"
+  ],
+  "responses": [
+    "Halo! Selamat datang di Rumah Makan kami 😊",
+    "Hai! Ada yang bisa kami bantu hari ini?"
+  ]
+},
+{
+  "tag": "cara_order",
+  "patterns": [
+    "cara order",
+    "cara pesan",
+    "cara pesannya gimana",
+    "bagaimana cara mau pesan makan",
+    "gimana cara pesan",
+    "bagaimana cara order",
+    "cara order makanan",
+    "cara pesan makanan",
+    "cara order di sini",
+    "cara pesan di rumah makan ini",
+    "order gimana kak",
+    "pesan gimana min"
+  ],
+  "responses": [
+    "Berikut cara order di Rumah Makan kami 😊\n\n1️⃣ Ketik *mau pesan*\n2️⃣ Pilih menu yang diinginkan\n3️⃣ Sebutkan jumlah pesanan\n4️⃣ Tunggu konfirmasi dari kami\n\nJika sudah siap, silakan ketik *mau pesan* ya 🍽️",
+    "Cara pesan sangat mudah kak 😊\n\n• Ketik *mau pesan*\n• Pilih menu\n• Konfirmasi pesanan\n\nKami siap membantu 👍"
+  ]
+},
+   {
+  "tag": "pesan",
+  "patterns": [
+    "mau pesan",
+    "mau pesan min",
+    "pesan min",
+    "saya mau pesan",
+    "kak mau pesan",
+    "ingin pesan makanan",
+    "pesan dong",
+    "mau order",
+    "mau pesan kak",
+    "kak mau order online",
+    "mau pesan makan kak",
+    "mau pesan online bisa kak",
+    "order dong",
+    "kak mau pesan dong",
+    "saya mau order makan"
+  ],"responses": [
+  "Baik 😊 Silakan sebutkan menu yang ingin dipesan.\n\n🍽️ Menu Makanan:\n• Ayam Geprek Sambal Ijo\n• Ayam Geprek Sambal Merah\n• Ayam Geprek Sambal Matah\n• Ayam Bakar Sambal Ijo\n• Ayam Bakar Sambal Terasi\n• Ayam Bakar Sambal Merah\n• Nasi Goreng Ati Ampela\n• Nasi Goreng Telur\n• Nasi Goreng Udang\n• Nasi Goreng Spesial\n• Mie Goreng Original\n• Mie Goreng Spesial\n• Mie Rebus Original\n• Mie Rebus Spesial\n• Soto Ayam\n• Sate Ayam\n\n🥤 Menu Minuman:\n• Es Teh Manis\n• Teh Hangat\n• Es Jeruk\n• Jeruk Hangat\n• Air Mineral\n• Jus Alpukat\n• Jus Mangga\n\nSilakan pilih menu ya 😊"
+]
+},
+{
+  "tag": "pesan_menu",
+  "patterns": [
+    "mau mie rebus",
+    "mau mie goreng",
+    "mau nasi goreng",
+    "mau ayam geprek",
+    "mau ayam geprek ijo",
+    "mau ayam geprek sambal ijo",
+    "mau geprek ijo",
+    "mau geprek",
+    "mau sate ayam",
+    "mau soto ayam",
+
+    "mau es teh",
+    "mau es jeruk",
+    "mau jus mangga",
+    "mau jus alpukat",
+
+    "nasi goreng dan es teh",
+    "mie rebus dan es teh",
+    "ayam geprek ijo dan es teh",
+    "gepuk ijo dan jus mangga",
+
+    "mau geprek ijo dan es teh",
+    "mau nasi goreng sama es teh",
+    "mau mie rebus sama jus mangga",
+    "pesan nasi goreng dan es teh",
+    "saya mau mie rebus",
+    "saya mau es teh"
+  ],
+  "responses": [
+    "Baik kak 😊 Pesanan Anda kami catat.\nApakah ada tambahan menu lain?",
+    "Siap 👍 Pesanan sudah dicatat.\nSilakan lanjutkan jika ingin menambah pesanan."
+  ]
+},
+
+    {
+      "tag": "tanya_estimasi",
+      "patterns": [
+        "kapan pesanan saya tiba",
+        "kapan sampe nya min",
+        "kapan sampe kak",
+        "pesanan saya kapan sampai",
+        "makanan saya kapan datang",
+        "estimasi pengantaran",
+        "kapan makanannya nyampe",
+        "estimasi nya berapa lama",
+        "kapan nyampe pesanan saya ",
+        "berapa lama estimasi nya kak",
+        "berapa lama nyampe nya",
+        "berapa lama sampai nya kak"
+      ],
+      "responses": [
+        "Estimasi pengantaran sekitar 30–45 menit tergantung jarak.",
+        "Kami akan bantu mengecek estimasi kedatangan pesanan Anda."
+      ]
+    },
+
+    {
+      "tag": "pesanan_belum_sampai",
+      "patterns": [
+        "makanan belum sampai",
+        "kok belum sampai pesanan saya",
+        "kok lama nyampe nya",
+        "pesanan belum datang",
+        "kok makanan belum datang",
+        "nunggu lama belum sampai",
+        "makanan belum saya terima",
+        "pesanan saya belum sampai",
+        "lama banget datengnya",
+        "lama amat sampai nya"
+      ],
+      "responses": [
+        "Kami mohon maaf atas keterlambatan. Kami akan segera mengecek pesanan Anda.",
+        "Tenang kak, kami bantu cek status pengantaran ya 😊"
+      ]
+    },
+
+   {
+  "tag": "komplain",
+  "patterns": [
+    "komplain",
+    "mau komplain",
+    "saya mau komplain",
+    "kak mau komplain",
+    "min mau komplain",
+    "saya ingin komplain",
+    "ingin komplain",
+    "mau mengajukan komplain",
+    "saya ada komplain",
+    "saya mau lapor",
+    "mau lapor",
+    "kak saya mau komplain",
+    "mau komplainn",
+    "saya ingin komplain"
+  ],
+  "responses": [
+    "Mohon maaf atas ketidaknyamanannya 🙏 Silakan jelaskan keluhan Anda dengan detail ya.",
+    "Kami minta maaf kak 😥 Bisa dijelaskan masalah pada pesanan Anda?"
+  ]
+},
+{
+  "tag": "detail_komplain",
+  "patterns": [
+    "pesanan saya tidak lengkap",
+    "makanan saya kurang",
+    "ada menu yang tidak datang",
+    "pesanan tidak sesuai",
+    "pesanan salah",
+    "kemarin pesan tapi tidak lengkap",
+    "makanannya kurang",
+    "ada yang kurang dari pesanan",
+    "pesanan saya beda",
+    "minuman tidak ada",
+    "nasi tidak ada",
+    "ayamnya tidak ada",
+    "tidak ada ayam",
+    "ayamnya gak ada",
+    "makanannya rusak",
+    "es teh nya tumpah",
+    "minumannya kurang satu",
+    "minumannya salah",
+    "soto nya kurang"
+
+  ],
+  "responses": [
+    "Kami mohon maaf atas ketidaknyamanannya kak 🙏\nBoleh diinformasikan menu apa yang kurang?",
+    "Maaf ya kak 😥 Kami akan bantu tindak lanjuti.\nMenu apa yang tidak diterima?"
+  ]
+},
+{
+  "tag": "solusi_komplain",
+  "patterns": [
+    "bagaimana solusinya",
+    "bagaimana solusi nya",
+    "solusinya bagaimana",
+    "terus solusinya apa",
+    "apa solusi dari masalah ini",
+    "bagaimana tindak lanjutnya",
+    "lalu bagaimana solusinya kak",
+    "jadi solusinya gimana",
+    "terus gimna ini",
+    "terus gimana",
+    "solusi nya gmna",
+    "gimana solusinya",
+    "gmna solusi nya"
+  ],
+  "responses": [
+    "Sebagai solusi, kami dapat mengirim ulang menu yang kurang atau melakukan refund sesuai ketentuan kak 🙏",
+    "Kami akan menindaklanjuti dengan pengiriman ulang atau pengembalian dana ya kak 😊"
+  ]
+},
+{
+  "tag": "ganti_menu",
+  "patterns": [
+    "minta ganti",
+    "saya mau ganti",
+    "mau ganti menu",
+    "bisa ganti menu",
+    "saya mau minta ganti",
+    "menu bisa diganti",
+    "ganti pesanan",
+    "saya ingin ganti pesanan"
+  ],
+  "responses": [
+    "Baik kak 😊 Kami bisa membantu penggantian menu.\nSilakan sebutkan menu pengganti yang diinginkan.",
+    "Siap kak 👍 Menu dapat diganti.\nMenu apa yang ingin Anda pilih sebagai pengganti?"
+  ]
+},
+    {
+  "tag": "refund",
+  "patterns": [
+    "refund",
+    "mau refund",
+    "saya mau refund",
+    "minta refund",
+    "uang saya kembali",
+    "mau uang kembali",
+    "refund pesanan",
+    "saya ingin refund",
+    "pesanan mau refund",
+    "minta pengembalian dana"
+  ],
+  "responses": [
+    "Refund dapat diajukan jika pesanan tidak diterima atau bermasalah.",
+    "Kami akan membantu proses refund sesuai ketentuan rumah makan."
+  ]
+},
+ {
+  "tag": "terima_kasih_solusi",
+  "patterns": [
+    "terimakasih solusinya",
+    "terima kasih solusinya",
+    "terimakasih solusi nya",
+    "terima kasih solusi nya",
+    "makasih solusinya",
+    "makasih solusi nya",
+    "makasih atas solusinya",
+    "terimakasih atas solusinya",
+    "makasih ya solusinya",
+    "terima kasih ya solusinya"
+  ],
+  "responses": [
+    "Sama-sama kak 😊 Kami mohon maaf atas kendala sebelumnya. Pesanan akan kami tindak lanjuti secepatnya.",
+    "Terima kasih kembali kak 🙏 Kami pastikan solusi yang diberikan segera diproses."
+  ]
+}
+
+,
+    {
+  "tag": "kontak",
+   "patterns": [
+  "kontak admin",
+  "kontak",
+  "admin",
+  "hubungi admin",
+  "nomor admin",
+  "cs",
+  "nomor cs",
+  "kontak cs",
+  "mau nomor admin",
+  "mau kontak admin"
+],
+  "responses": [
+    "Silakan hubungi admin kami di 0812-xxxx-xxxx.",
+    "Admin rumah makan dapat dihubungi melalui WhatsApp 0812-xxxx-xxxx."
+  ]
+},
+
+   {
+  "tag": "terima_kasih",
+  "patterns": [
+    "terima kasih",
+    "terimakasih",
+    "makasih",
+    "thanks",
+    "sip makasih",
+    "ok makasih",
+    "baiklah terimakasih",
+    "terima kasih solusinya",
+    "makasih solusinya",
+    "makasih ya",
+    "terima kasih ya kak"
+  ],
+  "responses": [
+    "Sama-sama kak 😊 Senang bisa membantu.",
+    "Terima kasih kembali kak 🙏 Jika ada kendala lain silakan hubungi kami.",
+    "Baik kak 😊 Jika membutuhkan bantuan lain, kami siap membantu."
+  ]
+}
+,
+
+    {
+      "tag": "fallback",
+      "patterns": [
+        "asdf",
+        "nggak ngerti",
+        "random",
+        "???",
+        "hah gimana"
+      ],
+      "responses": [
+        "Mohon maaf, kami belum memahami maksud Anda. Bisa dijelaskan lebih lanjut?",
+        "Kami siap membantu, silakan jelaskan kembali 😊"
+      ]
+    }
+
+  ]
+}
